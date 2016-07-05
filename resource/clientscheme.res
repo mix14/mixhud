@@ -2886,81 +2886,149 @@ Scheme
 			}
 		}
 		
-		GravityRegular12
+		ElliotSansRegular12
 		{
 			"1"
 			{
-				"name"		"Gravity"
+				"name"		"ElliotSans-Regular"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
 		
-		GravityRegular16
+		ElliotSansRegular16
 		{
 			"1"
 			{
-				"name"		"Gravity"
+				"name"		"ElliotSans-Regular"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
 		
-		GravityRegular24
+		ElliotSansRegular24
 		{
 			"1"
 			{
-				"name"		"Gravity"
-				"tall"		"24
+				"name"		"ElliotSans-Regular"
+				"tall"		"24"
 				"antialias" "1"
 			}
 		}
 		
-		GravityRegular32
+		ElliotSansRegular30
 		{
 			"1"
 			{
-				"name"		"Gravity"
-				"tall"		"32"
+				"name"		"ElliotSans-Regular"
+				"tall"		"30"
 				"antialias" "1"
 			}
 		}
 		
-		GravityRegular36
+		ElliotSansRegular36
 		{
 			"1"
 			{
-				"name"		"Gravity"
+				"name"		"ElliotSans-Regular"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
-		
-		GravityRegular42
+
+		ElliotSansRegular42
 		{
 			"1"
 			{
-				"name"		"Gravity"
+				"name"		"ElliotSans-Regular"
 				"tall"		"42"
 				"antialias" "1"
 			}
 		}
-				
-		GravityRegular48
+		
+		ElliotSansRegular48
 		{
 			"1"
 			{
-				"name"		"Gravity"
+				"name"		"ElliotSans-Regular"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		ElliotSansBold12
+		{
+			"1"
+			{
+				"name"		"ElliotSans-Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		ElliotSansBold16
+		{
+			"1"
+			{
+				"name"		"ElliotSans-Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		ElliotSansBold24
+		{
+			"1"
+			{
+				"name"		"ElliotSans-Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		ElliotSansBold30
+		{
+			"1"
+			{
+				"name"		"ElliotSans-Bold"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		ElliotSansBold36
+		{
+			"1"
+			{
+				"name"		"ElliotSans-Bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+
+		ElliotSansBold42
+		{
+			"1"
+			{
+				"name"		"ElliotSans-Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		ElliotSansBold48
+		{
+			"1"
+			{
+				"name"		"ElliotSans-Bold"
 				"tall"		"48"
 				"antialias" "1"
 			}
 		}
 	}
-	
-	/// These are the fonts I'm using in my custom HUD //
-	
-	
 
+	// These are the fonts I'm using in my custom HUD
+	
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5362,20 +5430,26 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7"
+		"7" "resource/ocra.ttf"
+		"8" // Bold Font
 		{
-			"font" "resource/fonts/Gravity-Light"
-			"name" "Gravity Light"
+			"font" "resource/fonts/ElliotSans-Bold"
+			"name" "ElliotSans-Bold"
 		}
-		"8"
+		"9" // Light Font
 		{
-			"font" "resource/fonts/Gravity-Regular"
-			"name" "Gravity"
-		}	
-		"9"
+			"font" "resource/fonts/ElliotSans-Light"
+			"name" "ElliotSans-Light"
+		}
+		"10" // Medium Font
 		{
-			"font" "resource/fonts/Gravity-Bold"
-			"name" "Gravity Bold"
-		}			
+			"font" "resource/fonts/ElliotSans-Medium"
+			"name" "ElliotSans-Medium"
+		}
+		"11" // Regular Font
+		{
+			"font" "resource/fonts/ElliotSans-Regular"
+			"name" "ElliotSans-Regular"
+		}
 	}
 }
